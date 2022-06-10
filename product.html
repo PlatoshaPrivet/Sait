@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Giro</title>
+    <link rel="stylesheet" href="master.css" id="theme-link" />
+    <link rel="icon" href="logo2.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <!-- Логотип -->
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="" class="logo-img" /></a>
+        </div>
+        <div class="topnav">
+            <style> .topmenu {
+                text-align: center;
+            }
+            </style>
+            <a class="active" href="index.html">home</a>
+            <a href="product.html">Товары</a>
+            <a href="about.html">О нас</a>
+        </div>
+        <!-- Кнопка смены темы -->
+        <div class="theme-button" id="theme-button">Сменить тему</div>
+        <!-- Телефон -->
+        <div class="phone">
+            <input type="image" src="img/call.jpg" alt="Позвонить" class="call" />
+            <a href="#" class="number">+7 351 111 22 33</a>
+
+        </div>
+    </header>
+    
+ <!-- Блок со списком товаров и фильтром -->
+ <div class="products">
+    <h2>Товары</h2>
+    <div class="products-items">
+        <!-- Фильтр -->
+        <input type="radio" id="all" name="product" class="product" />
+        <label for="all">Всё</label>
+        <input type="radio" id="gyro" name="product" class="product" />
+        <label for="gyro">Гироскутер</label>
+        <input type="radio" id="seegway" name="product" class="product" />
+        <label for="seegway">Сигвей</label>
+        <input type="radio" id="elsam" name="product" class="product" />
+        <label for="elsam">Электросамокат</label>
+        <!-- Список товаров -->
+        <div class="tile gyro">
+
+            <div class="item-product">
+                <div class="product-img">
+                    <img src="img/tov1.jpg" alt="" class="img-product" />
+                </div>
+                <div class="name-price1">
+                    <h4>Smart Balance 6.5" Ver. 1</h4>
+                    <div class="price">8990р.</div>
+                </div>
+            </div>
+        </div>
+        <div class="tile gyro">
+            <div class="item-product">
+                <div class="product-img">
+                    <img src="img/tov2.jpg" alt="" class="img-product" />
+                </div>
+                <div class="name-price">
+                    <h4>KIWANO KO-X ES03</h4>
+                    <div class="price">18900р.</div>
+                </div>
+            </div>
+        </div>
+        <div class="tile seegway">
+            <div class="item-product">
+                <div class="buy-item">
+                </div>
+                <div class="product-img">
+                    <a href="seegway.html"><img src="img/tov3.png" alt="" class="img-product" /></a>
+                </div>
+                <div class="name-price">
+                    <h4>Minirobot Mini PRO 36V</h4>
+                    <div class="price">15990р.</div>
+                </div>
+            </div>
+        </div>
+        <div class="tile seegway">
+            <div class="item-product">
+                <div class="product-img">
+                    <img src="img/tov4.jpg" alt="" class="img-product" />
+                </div>
+                <div class="name-price">
+                    <h4>Xiaomi Ninebot Mini</h4>
+                    <div class="price">22900р.</div>
+                </div>
+            </div>
+        </div>
+        <div class="tile seegway">
+            <div class="item-product">
+                <div class="product-img">
+                    <img src="img/tov5.png" alt="" class="img-product" />
+                </div>
+                <div class="name-price">
+                    <h4>Hili E+</h4>
+                    <div class="price">39900.</div>
+                </div>
+            </div>
+        </div>
+        <div class="tile elsam">
+            <div class="item-product">
+                <div class="product-img">
+                    <img src="img/tov6.png" alt="" class="img-product" />
+                </div>
+                <div class="name-price">
+                    <h4>Yamato PES MINI</h4>
+                    <div class="price">15900р.</div>
+                </div>
+            </div>
+        </div>
+        <div class="tile elsam">
+            <div class="item-product">
+                <div class="product-img">
+                    <img src="img/tov7.jpg" alt="" class="img-product" />
+                </div>
+                <div class="name-price">
+                    <h4>KUGOO S2 (Jilong)</h4>
+                    <div class="price">14900р.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

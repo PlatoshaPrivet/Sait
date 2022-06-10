@@ -1,0 +1,19 @@
+body {
+    background-image: url(img/fone-dark.jpg);
+    margin: 0 auto;
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.pic-t {
+    display: flex;
+    float: left;
+    width: auto;
+    max-height: 400px;
+    max-width: 400px;
+    margin-right: 50px;
+    border-radius: 50px;
+}
